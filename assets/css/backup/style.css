@@ -3075,55 +3075,55 @@ hr {
 }
 
 .slider-area .hero__caption h1 {
-	color: #fff;
-	display: inline-block;
-	float: left;
+  color: #fff;
+  display: inline-block;
+  float: left;
 }
 
 .center b {
-	float: left;
-	overflow: hidden;
-	position: relative;
-	height: 45px;
-	font-size: 30px;
-	text-align: left;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 45px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .innerText {
-	font-weight: bold;
-	color: #e74c3c;
-	display: inline-block;
-	padding-left: 10px;
-	animation: move 7s infinite;
-	animation-delay: 1.5s;
-	top: 0;
-	left: 0;
-	position: relative;
+  font-weight: bold;
+  color: #e74c3c;
+  display: inline-block;
+  padding-left: 10px;
+  animation: move 7s infinite;
+  animation-delay: 1.5s;
+  top: 0;
+  left: 0;
+  position: relative;
 }
 
 @keyframes move {
-	0% {
-		top: 0px;
-	}
-	20% {
-		top: -40px;
-	}
-	40% {
-		top: -80px;
-	}
-	60% {
-		top: -120px;
-	}
-	80% {
-		top: -160px;
-	}
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -40px;
+  }
+  40% {
+    top: -80px;
+  }
+  60% {
+    top: -120px;
+  }
+  80% {
+    top: -160px;
+  }
 }
 
 .center {
-	margin: 50px auto;
-	width: 400px;
-	text-align: center;
-	display: block;
+  margin: 50px auto;
+  width: 400px;
+  text-align: center;
+  display: block;
 }
 
 
@@ -3136,16 +3136,16 @@ hr {
 	margin-bottom: 25px;
 
 	animation: move 4s linear infinite;
-	background-image: linear-gradient(to right, #6c5ce7, #e84393, #6c5ce7, #D980FA, #6c5ce7);
-	background-size: 200% auto;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-transform: uppercase;
+	 background-image: linear-gradient(to right, #6c5ce7, #e84393, #6c5ce7, #D980FA, #6c5ce7);
+	 background-size: 200% auto;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 text-transform: uppercase;
 }
 
 @keyframes move {
-	to {
-		background-position: 200% center;
+	 to {
+		 background-position: 200% center;
 	}
 }
 
@@ -3707,43 +3707,43 @@ form.search-box .input-form .world-form i {
 	}
 }
 
-.tools-card-area {
+.pricing-card-area {
 	position: relative
 }
 
-.tools-card-area.tools-card-area2 {
+.pricing-card-area.pricing-card-area2 {
 	margin-top: -230px;
 	position: unset
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.tools-card-area.tools-card-area2 {
+	.pricing-card-area.pricing-card-area2 {
 		margin-top: -130px
 	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-	.tools-card-area.tools-card-area2 {
+	.pricing-card-area.pricing-card-area2 {
 		margin-top: -130px
 	}
 }
 
 @media (max-width: 575px) {
-	.tools-card-area.tools-card-area2 {
+	.pricing-card-area.pricing-card-area2 {
 		margin-top: -130px
 	}
 }
 
-.tools-card-area.tools-card-area2::before {
+.pricing-card-area.pricing-card-area2::before {
 	position: unset
 }
 
-.tools-card-area.tools-card-area2::after {
+.pricing-card-area.pricing-card-area2::after {
 	position: unset;
 	border: 0
 }
 
-.tools-card-area::before {
+.pricing-card-area::before {
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -3751,7 +3751,7 @@ form.search-box .input-form .world-form i {
 	background: #2D0A31
 }
 
-.tools-card-area::after {
+.pricing-card-area::after {
 	position: absolute;
 	top: 53%;
 	content: "";
@@ -3762,63 +3762,63 @@ form.search-box .input-form .world-form i {
 	right: 0
 }
 
-.tools-card-area .single-card {
+.pricing-card-area .single-card {
 	background: #ffff;
 	padding: 70px 0px;
 	-webkit-box-shadow: 0 8px 26px rgba(67, 40, 124, 0.08);
 	border-radius: 8px
 }
 
-.tools-card-area .single-card .card-top {
+.pricing-card-area .single-card .card-top {
 	padding: 0 26px
 }
 
-.tools-card-area .single-card .card-top img {
+.pricing-card-area .single-card .card-top img {
 	margin-bottom: 20px
 }
 
-.tools-card-area .single-card .card-top p {
+.pricing-card-area .single-card .card-top p {
 	color: #3B4855;
 	font-size: 15px;
 	margin-bottom: 8px
 }
 
-.tools-card-area .single-card .card-top h4 {
+.pricing-card-area .single-card .card-top h4 {
 	font-size: 25px;
 	font-weight: 600;
 	line-height: 1.3;
 	margin-bottom: 25px
 }
 
-.tools-card-area .single-card .card-mid {
+.pricing-card-area .single-card .card-mid {
 	margin-bottom: 25px;
 	padding-bottom: 26px;
 	border-bottom: 1px solid #E7E6EB
 }
 
-.tools-card-area .single-card .card-mid h4 {
+.pricing-card-area .single-card .card-mid h4 {
 	color: #4C1E51;
 	font-size: 32px;
 	font-weight: 600
 }
 
-.tools-card-area .single-card .card-mid h4 span {
+.pricing-card-area .single-card .card-mid h4 span {
 	color: #838a9b;
 	font-size: 12px
 }
 
-.tools-card-area .single-card .card-bottom ul li {
+.pricing-card-area .single-card .card-bottom ul li {
 	color: #717081;
 	font-weight: 300;
 	margin-bottom: 23px;
 	font-size: 16px
 }
 
-.tools-card-area .single-card .card-bottom ul li:last-child {
+.pricing-card-area .single-card .card-bottom ul li:last-child {
 	margin-bottom: 46px
 }
 
-.tools-card-area .single-card .card-bottom .borders-btn {
+.pricing-card-area .single-card .card-bottom .borders-btn {
 	color: #F067FF;
 	padding: 10px 64px;
 	background: none;
@@ -3829,7 +3829,7 @@ form.search-box .input-form .world-form i {
 	text-transform: uppercase
 }
 
-.tools-card-area .single-card:hover .card-bottom .borders-btn {
+.pricing-card-area .single-card:hover .card-bottom .borders-btn {
 	color: #fff !important
 }
 
@@ -4219,8 +4219,8 @@ form.search-box .input-form .world-form i {
 }
 
 b.footer-title-b {
-	color: #fff;
-	text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .footer-area .footer-form {
@@ -5694,8 +5694,8 @@ b.footer-title-b {
 }
 
 .modal-content {
-	background: rgb(163,119,255);
-	background: linear-gradient(71deg, rgba(163,119,255,1) 0%, rgba(229,105,255,1) 100%);
+    background: rgb(163,119,255);
+    background: linear-gradient(71deg, rgba(163,119,255,1) 0%, rgba(229,105,255,1) 100%);
 }
 
 .modal-title{
@@ -6052,8 +6052,8 @@ b.footer-title-b {
 .border-btn::before,
 .main-header .main-menu ul ul.submenu,
 form.search-box .input-form .search-form button,
-.tools-card-area .single-card .card-bottom .borders-btn:hover,
-.tools-card-area .single-card:hover .card-bottom .borders-btn,
+.pricing-card-area .single-card .card-bottom .borders-btn:hover,
+.pricing-card-area .single-card:hover .card-bottom .borders-btn,
 .footer-area .footer-form form .form-icon button {
 	background: #a077ff;
 	background: -moz-linear-gradient(top, #a077ff 0%, #ef67ff 100%);
@@ -7181,18 +7181,18 @@ del {
 
 #mc-embedded-subscribe {
 	border: 0;
-	cursor: pointer;
-	padding: 13px 22px;
-	line-height: 1;
-	width: 100%;
-	display: block;
-	margin-top: 24px;
-	border-radius: 10px;
+    cursor: pointer;
+    padding: 13px 22px;
+    line-height: 1;
+    width: 100%;
+    display: block;
+    margin-top: 24px;
+    border-radius: 10px;
 	background: #a077ff;
-	background: -moz-linear-gradient(top, #a077ff 0%, #ef67ff 100%);
-	background: -webkit-linear-gradient(top, #a077ff 0%, #ef67ff 100%);
-	background: linear-gradient(to bottom, #a077ff 0%, #ef67ff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a077ff', endColorstr='#ef67ff', GradientType=0);
+    background: -moz-linear-gradient(top, #a077ff 0%, #ef67ff 100%);
+    background: -webkit-linear-gradient(top, #a077ff 0%, #ef67ff 100%);
+    background: linear-gradient(to bottom, #a077ff 0%, #ef67ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a077ff', endColorstr='#ef67ff', GradientType=0);
 }
 
 
@@ -7203,171 +7203,9 @@ a.modal-suggestion	{
 }
 
 .domain-search-area.section-bg1 {
-	padding: 0 0 140px 0;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 140px;
-	padding-left: 0px;
-}
-
-
-/* Grid da página inicial */
-
-
-.me-0 {
-	margin-right: 0 !important;
-}
-.list-inline-item {
-	display: inline-block;
-}
-
-.list-inline {
-	padding-left: 0;
-	list-style: none;
-}
-
-
-.badge {
-	display: inline-block;
-	padding: 0.35em 0.65em;
-	font-size: 0.85em;
-	font-weight: 400;
-	line-height: 1;
-	color: #fff;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: baseline;
-	border-radius: 0.25rem;
-}
-
-.bg-success {
-	--bs-bg-opacity: 1;
-	background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.card img {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-
-.card {
-	border-radius: 10px;
-}
-
-.card-box {
-	margin: 15px;
-	box-shadow: 11px 8px 23px -7px rgb(121 35 130);
-	-webkit-box-shadow: 11px 8px 23px -7px rgb(121 35 130);
-	-moz-box-shadow: 11px 8px 23px -7px rgba(121,35,130,1);
-	padding: 0px;
-}
-.card-box .card {
-	border: none;
-}
-
-.card-footer {
-	padding: 0.75rem 1.25rem;
-	background-color: white;
-	border-top: white;
-}
-
-.mb-0 {
-	margin-bottom: 0 !important;
-}
-
-.fw-light {
-	font-weight: 400 !important;
-}
-
-.pt-0 {
-	padding-top: 0 !important;
-}
-
-.card-footer hr {
-	border-bottom: 1px solid #eceff8;
-	border-top: 0 none;
-	margin: 15px 0;
-	padding: 0;
-}
-
-.fw-normal {
-	font-weight: 500 !important;
-}
-.card-title {
-	margin-bottom: 0.5rem;
-	font-size: 20px;
-	padding: 2px 0 5px 0;
-	font-weight: 600 !important;
-}
-
-
-.card-footer:last-child {
-	border-radius: 10px;
-}
-
-.card-body {
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
-	padding: 1.25rem;
-	margin: 10px;
-}
-
-
-
-.d-flex .h6 {
-	font-size: 16px;
-	margin-top: 0;
-	margin-bottom: 0.5rem;
-	font-family: "Poppins", sans-serif;
-	font-weight: 800;
-	line-height: 1.25;
-	color: #4b4f52;
-	opacity: 1;
-}
-
-.text-orange {
-	--bs-text-opacity: 1;
-	color: orange;
-}
-.me-2 {
-	margin-right: 0.5rem !important;
-}
-.fa, .fas {
-	font-weight: 900;
-}
-
-.fa, .far, .fas {
-	font-family: "Font Awesome 5 Free";
-}
-.fa, .fab, .fad, .fal, .far, .fas {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-}
-
-li.list-inline-item.ms-2 {
-    font-size: 14px;
-}
-
-div#v-pills-tab {
-    padding: 10px;
-    background: #4c1e51;
-    text-align: center;
-    border-radius: 5px;
-}
-
-
-div#v-pills-tab a {
-    font-size: 16px;
-	color: white;
-	padding: 0 20px;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #661c6e;
+    padding: 0 0 140px 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 140px;
+    padding-left: 0px;
 }
