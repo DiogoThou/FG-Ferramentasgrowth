@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,18 @@
     <title>Diovo Souza - Um dia esse site vai ser dahora!</title>
 </head>
 <body>
-    <iframe hidden
-    src="https://www.youtube.com/embed/M67A7jmvQik?&autoplay=1"
-    allow="autoplay">
-    </iframe>
+  
+
+    <audio hidden controls autoplay id="myaudio"> 
+        <source src="/diogo/audio.ogg" type="audio/ogg">
+        <source hideen src="/diogo/audio.mp3" type="audio/mpeg"> 
+    </audio> 
+  
+
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.5;
+      </script>
 
     <style>/* Adjusts to any size window <3 */
 
