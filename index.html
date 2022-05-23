@@ -12,6 +12,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="">
     <link rel="canonical" href="https://ferramentasgrowth.com.br" />
+    <meta http-equiv="content-language" content="pt_BR">
   
     <meta property="og:title" content="Ferramentas Growth | O básico bem feito em Growth Hacking" />
     <meta name="author" content="FerramentasGrowth" />
@@ -285,6 +286,62 @@ $.extend($.validator.messages, {
 </div>
 
 
+<style>
+  .modal-content {
+    background: transparent !important;
+}
+
+.modal-backdrop {
+    opacity: 0.9 !important;
+}
+
+
+html {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+h2{
+  color: white !important;
+  text-align: center;
+}
+</style>
+
+<div class="modal fade" id="onload" tabindex="-1" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
+  <div class="modal-dialog modal-dialog-centered">
+    
+      <div class="modal-content">
+        <h2>Site em construção</h2>
+
+          <div class="modal-body">
+            <img src="assets/js/lottie/animation_500_l3i4m5k9.gif" alt="" data-animation="fadeInRight" data-delay="1s" class="" style="animation-delay: 1s;">
+          </div>
+      </div>
+  </div>
+</div> <!-- And the relavant closing div tag -->
+
+<script type="text/javascript">
+  window.onload = () => {
+      $('#onload').modal('show');
+
+      
+  }
+
+  
+</script>
+
+<script type="text/javascript">
+   $('#onload').modal({
+    backdrop: 'static',
+    keyboard: false  // to prevent closing with Esc button (if you want this too)
+})
+  
+
+$('#onload').on('hide.bs.modal', function(e) {
+
+e.preventDefault();
+});
+
+</script>
 <!-- ? Preloader Start -->
 <div id="preloader-active">
   <div class="preloader d-flex align-items-center justify-content-center">
@@ -300,338 +357,12 @@ $.extend($.validator.messages, {
 
 
 
-<!--? Pricing Card Start -->
-<section class="tools-card-area fix">
-  <div class="about-area pb-bottom">
-    <div class="container">
-
-      <div class="col-12 col-lg-12">
-
-       <div class="nav nav-pills nav-justified mb-3 justify-content-center" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-            aria-controls="v-pills-home" aria-selected="true">Serviço</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-            aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-            aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
-      </div>
-
-
-      <div class="col-12 col-lg-12">
-        <!-- about-img -->
-        <div class="about-img ">
-          <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-
-              <div class="tab-pane fade active show" id="course-pills-tabs-2" role="tabpanel" aria-labelledby="course-pills-tab-2">
-	<div class="row gx-1 justify-content-center">
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow h-100">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/05.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div class="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-success bg-opacity-10 text-success">Beginner</a>
-						<a href="#" class="h6 fw-light mb-0"><i class="far fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">The Complete Web Development in python</a></h5>
-					<p class="text-truncate-2 mb-2">Mention Mr manners opinion if garrets enabled.</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between mt-2">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>10h 00m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>26 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow h-100">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/06.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div calhttps://eduport.webestica.com/https://eduport.webestica.com/assets/images/courses/4by3/08.jpgss="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-info bg-opacity-10 text-info">Intermediate</a>
-						<a href="#" class="h6 fw-light mb-0"><i class="far fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">Angular – The Complete Guider</a></h5>
-					<p class="text-truncate-2 mb-2">Rooms oh fully taken by worse do. Points afraid but may end.</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between mt-2">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h 32m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>42 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div class="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-success bg-opacity-10 text-success">Beginner</a>
-						<a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">Deep Learning with React-Native</a></h5>
-					<p class="text-truncate-2 mb-2">Far advanced settling say finished raillery. Offered chiefly farther</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>18h 56m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>99 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow h-100">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div class="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-purple bg-opacity-10 text-purple">All level</a>
-						<a href="#" class="h6 fw-light mb-0"><i class="far fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">JavaScript: Full Understanding</a></h5>
-					<p class="text-truncate-2 mb-2">Far advanced settling say finished raillery. Offered chiefly farther</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">5.0/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>35h 20m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>89 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow h-100">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/10.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div class="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-info bg-opacity-10 text-info">Intermediate</a>
-						<a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">Bootstrap 5 From Scratch</a></h5>
-					<p class="text-truncate-2 mb-2">Far advanced settling say finished raillery. Offered chiefly farther</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between mt-2">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>25h 56m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>38 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-		<!-- Card item START -->
-		<div class="card-box col-lg-3 col-md-6">
-			<div class="card shadow h-100">
-				<!-- Image -->
-				<img src="https://eduport.webestica.com/assets/images/courses/4by3/13.jpg" class="card-img-top" alt="course image">
-				<div class="card-body pb-0">
-					<!-- Badge and favorite -->
-					<div class="d-flex justify-content-between mb-2">
-						<a href="#" class="badge bg-success bg-opacity-10 text-success">Beginner</a>
-						<a href="#" class="h6 fw-light mb-0"><i class="far fa-heart"></i></a>
-					</div>
-					<!-- Title -->
-					<h5 class="card-title fw-normal"><a href="#">PHP with - CMS Project</a></h5>
-					<p class="text-truncate-2 mb-2">Far advanced settling say finished raillery. Offered chiefly farther</p>
-					<!-- Rating star -->
-					<ul class="list-inline mb-0">
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
-						<li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i></li>
-						<li class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
-					</ul>
-				</div>
-				<!-- Card footer -->
-				<div class="card-footer pt-0 pb-3">
-					<hr>
-					<div class="d-flex justify-content-between">
-						<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>21h 22m</span>
-						<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>30 aplicações</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card item END -->
-
-
-	</div>
-</div>
 
 
 
 
-              <div class="slider-btns text-center">
-                <!-- Hero-btn -->
-                <a data-animation="fadeInLeft" data-delay="1s" href="industries.html" class="btn radius-btn" tabindex="0" style="animation-delay: 1s;">Ver todas ferramentas</a>
-              </div>
-
-            </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-              Profile Panel</div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-              Messages Panel</div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-              Settings Panel</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
 
 
-
-
-<!-- About-2 Area End -->
-<!-- ask questions -->
-<section class="ask-questions section-bg1 section-padding30 fix">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-8 col-lg-9 col-md-10 ">
-        <!-- Section Tittle -->
-        <div class="section-tittle text-center mb-90">
-          <h2>Perguntas Frequêntes! <s>ou não!</s></h2>
-          <p>Dúvidas gerais sobre o site, blog e afins...</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <div class="single-question d-flex mb-50">
-          <span> 1.</span>
-          <div class="pera">
-            <h2>Qual a idéia do site?</h2>
-            <p>Bem simples! Distribuir o máximo de conteúdo para todos que precisam de soluções práticas para o
-              dia-a-dia envolvendo marketing, growth, vendas ou cs. </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="single-question d-flex mb-50">
-          <span> 3.</span>
-          <div class="pera">
-            <h2>Vocês cobram por algo?</h2>
-            <p>Por enquanto não! Conteúdo freezão para apaixonados por crescimento…</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="single-question d-flex mb-50">
-          <span> 2.</span>
-          <div class="pera">
-            <h2>Posso sugerir um review de Ferramenta?</h2>
-            <p>SIM! Basta <a class="modal-suggestion" data-toggle="modal" data-target="#modal-suggestion"
-                data-whatever="@mdo">clicar aqui</a> e fazer sua sugestão <3< /p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="single-question d-flex mb-50">
-          <span> 4.</span>
-          <div class="pera">
-            <h2>Que tipo de conteúdo teremos aqui?</h2>
-            <p>Posts no blog, reviews de ferramenta, tutoriais de processos e automações, planilhas e calculadoras,
-              hacks simples e avançados para otimizar seu dia!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End ask questions -->
-</main>
 
   <footer>
     <div class="footer-wrappr " data-background="../../assets/img/gallery/footer-bg.png">
