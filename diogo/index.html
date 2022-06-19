@@ -20,7 +20,7 @@
      justify-content: center;
      flex-direction: column;
      height: 100%;
-     top: 370px;
+     top: 330px;
      position: relative;
 }
  .player-controls {
@@ -36,7 +36,7 @@
      box-sizing: border-box;
 }
  .song-panel {
-     background-color: #fcf8fa;
+     background-color: #1e272e;
      border-radius: 15px 15px 0 0;
      display: flex;
      height: 75px;
@@ -55,7 +55,7 @@
      width: 230px;
 }
  .song-panel .song-info .song-info__title {
-     color: #444b59;
+     color: #ffffff;
      font-size: 0.8rem;
      font-weight: bold;
      margin-bottom: 5px;
@@ -185,6 +185,24 @@
     }
 }
  
+
+
+@media only screen and (max-width: 600px) {
+  .player-controls {
+        width: 100%;
+  }
+
+  .song-panel {
+    width: 100%;
+    padding: 0px 0px 12px 0px;
+  }
+
+  .player {
+    top: 0px;
+  }
+
+}
+
 </style>
 
 <div class="player">
